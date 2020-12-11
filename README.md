@@ -1,6 +1,5 @@
 # This Module creates VPC in Google Cloud
 
-'''
 module "vpc" {
     source = "bemakylbekova/vpc/gcp"
     vpc_name = "test"
