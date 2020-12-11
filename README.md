@@ -1,5 +1,6 @@
-# This Module creates VPC in Google Cloud
+### This module creates VPC in Google Cloud
 
+```
 module "vpc" {
     source = "bemakylbekova/vpc/gcp"
     vpc_name = "test"
@@ -11,3 +12,4 @@ module "vpc" {
     ip_cidr_range2 = "10.0.2.0/24"
     ip_cidr_range3 = "10.0.3.0/24"
 }
+```
